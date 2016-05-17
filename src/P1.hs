@@ -1,4 +1,4 @@
-module Lib where
+module P1 where
 
 p1 :: [a] -> Maybe a
 p1 [] = Nothing
