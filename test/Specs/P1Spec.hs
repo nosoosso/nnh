@@ -8,7 +8,7 @@ main = hspec spec
 
 
 spec :: Spec
-spec = do
+spec =
   describe "p1" $ do
     it "returns the Nothing when given a null list" $
       (p1 []::(Maybe [Int]))  `shouldBe` Nothing
